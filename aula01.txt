@@ -1,0 +1,38 @@
+Aprendendo a utilizar o Github
+
+Instalação de software
+
+pacotes .deb
+Base do sistema
+sistema Gdeb
+#Desafio: Opera
+          Microsoft EDGE
+        # BETA
+
+        Instalação utilizando a central de aplicativos
+        Pela central de aplicativos é melhor para baixar os mais atualizados
+        Instalar o arquivo Ttf-mscorefonts-instaler para fontes 
+
+        A_ KolourPaint
+        B_ Kazam
+        C_ Audacity
+        D_ VLC
+        E_ Guvcview
+
+        Utilizando o terminal para baixar aplicativos
+
+        1 Comando é o apt se utiliza o tempo todo.
+        2 Segundo comando: dpkg
+
+
+        Procedimento:
+        1- Dar sudo apt Update
+        2- Quando travar utilizar Ctrl+Alt+Backspace ele ira reiniciar o ambiente gráfico.
+        3- sudo apt install git vim python2 python3   ( instalando 4 apps de uma vez)
+
+        #DESAFIO: BAIXAR wps office (DEB) e depois Kdenlive ( editor de video) ( baixar do tipo app image )
+
+        nada executa no linux se vocÊ não der permissão, chama se permissão de execução.
+        ap image só funciona se vocÊ Der permissão.
+
+
