@@ -1,0 +1,231 @@
+Terminal: Bash / Shell
+
+Shell: Concha ( uma linguagem de programação chamada de shell script)
+Bash: Interpretador de comandos igual o cmd, porém tem mais recursos.
+
+Bash a base é o GNU.
+~ significa diretório pessoal
+$ significa: Usuário comum, pois não tem permissões.
+
+# Significa super Usuário 
+
+id: identificação-> uid= 1000 é vocÊ
+
+Para se tornar super usuário: 
+sudo -i significa se tornar outro usuário.
+exit para sair voltar para usuario comum
+
+Comandos de manipulação de usuário 
+
+Todos os camandos em linux é minusculo
+
+--> ls: Sua função é listar arquivos ou diretórios
+Opções para o comando: Primeira: -l Arquivos e diretorios no modo lista h junto significa colocar 
+em modo humano
+Segunda Opção: 
+Arquivos e diretorios ocultos: ls -a --> Significa mostrar tudo.
+Para exibir ls -lha --> ele mostra tudo de forma humana 
+O sinal de - menos, significa passar uma opção.
+
+Sempre que digitar o arquivo ele possui a opção color, e sempre que aparecer na cor azul, 
+É DIRETÓRIO.
+Em branco, é arquivo em texto.
+
+Todo arquivo ou diretório que começar com ponto, ele está oculto!!!
+
+Comando cd --> Significa mudar de diretórios.
+/ -> significa raiz 
+
+
+Cor azul calcinha: chama-se link simbólico, você está vendo mas ele não existe.
+igual atalho no windows
+
+Verde marca texto: Perigoo!!!!!
+
+pwd: Ele fala em qual diretorio voce esta
+
+comando cd - voce sai da raiz, ele só volta uma vez.
+
+cd~ --> o tio representa sempre seu diretorio pessoal, ele volta
+
+Para acessar o diretorio se usa o comando cd e o nome do diretorio, pode usar TAB também,
+sendo assim entra dentro do diretorio.
+Para sair e ir para raiz
+
+cd / vai para a raiz.
+cd .. -> significa descer o nível EXEMPLO: voltar para o nível ou pasta anterior
+history: Mostra o historico de comandos utilizados
+! = Executar o comando da linha que vocoe escolher ou de referencia
+
+mkdir: comando para criar diretorios 
+Opção: -v = Ela significa verboso do termo verbosidade. ( detalhado )
+mkdir -v ' ' Aspas simples serve para preservar o o diretorio e a criação como uma palavra só.
+
+
+
+Ajuda de comandos
+opçao1 = -help
+
+
+Mais detalhados, utilizamos man antes do comando.
+
+
+
+mkdir -pv tat/info  tat/tst tat/amd tat/est 
+rm -> para apagar 
+
+-f -> para forçar
+-V -> Verboso
+-R -> recursivo
+
+se selecionar Shift delete, nem vai para lixeira ele some
+
+
+1  sudo
+    2  sudo apt 
+    3  sudo apt up
+    4  sudo apt update
+    5  sudo apt upgrade
+    6  sudo apt full-upgrade 
+    7  sudo apt dist-upgrade 
+    8  sudo apt autoremove 
+    9  sudo apt autoclean
+   10  sudo apt clean
+   11  history
+   12  sudo apt update
+   13  sudo apt install  hollywood 
+   14  sudo apt update
+   15  sudo apt upgrade
+   16  sudo apt autoclean
+   17  sudo apt upgrade
+   18  sudo apt update
+   19  sudo apt install git vim pyton2 pyton3 
+   20  sudo apt instal git vim python2 python3
+   21  sudo apt install git vim python2 python3
+   22  sudo apt install wps2
+   23  sudo apt update 
+   24  sudo apt upgrade
+   25  full upgrade
+   26  sudo apt full uipgrade
+   27  sudo apt full upgrade
+   28  sudo apt full up-grade
+   29  sudo apt full-upgrade
+   30  sudo apt autoremove
+   31  clr
+   32  cl
+   33  clear
+   34  hostname
+   35  id
+   36  sudo -i 
+   37  sudo -i
+   38  ls
+   39  ls -lh
+   40  ls -a
+   41  ls -lha
+   42  cd
+   43  cd /
+   44  cd/
+   45  cd /
+   46  ls
+   47  ls -lha
+   48  ls
+   49  pwd
+   50  cd -
+   51  pwd
+   52  cd -
+   53  cd ~
+   54  pwd
+   55  ls
+   56  cd Documentos/
+   57  cd /
+   58  cd home/
+   59  cd/
+   60  cd /
+   61  cd ~/Documentos/
+   62  cd /
+   63  cd ~/Documentos/
+   64  pwd
+   65  cd ..
+   66  pwd
+   67  cd ..
+   68  pwd
+   69  cd ..
+   70  history
+   71  cd homr/senac/Documentos
+   72  history
+   73  cd home/senac/Documentos
+   74  cd /
+   75  history
+   76  cd home/senac/Documentos
+   77  mkdir senac 
+   78  ls
+   79  mkdir senac 
+   80  mkdir SENAC 
+   81  ls
+   82  mkdir -v tatuape
+   83  ls
+   84  cd senac/
+   85  mkdir -v Alisson Andrew Arthur Bruno Caio Elison
+   86  ls
+   87  ls -lh
+   88  mkdir -v SENACTatuape
+   89  mkdir SENAC TATUAPE
+   90  ls
+   91  mkdir -v SENAC Tatuapé
+   92  mkdir -v SENAC.Tatuapé
+   93  mkdir -v 'SENAC Tatuapé'
+   94  ls -lh
+   95  cd SENAC\ Tatuapé/
+   96  cd /
+   97  ls
+   98  ~Documentos/senac/Senac Tatuapé
+   99  pwdp
+  100  pwd
+  101  sudo -i
+  102  pwd
+  103  cd 
+  104  pwd
+  105  /home/senac/Documentos
+  106  cd Documentos
+  107  cd /
+  108  cd senac
+  109  mkdir -v senac 
+  110  ~cd
+  111  sudo -i
+  112  mkdir -v senac
+  113  cd Documentos
+  114  cd /Documentos
+  115  sudo -i
+  116  ls
+  117  mkdir -v senac
+  118  ls
+  119  cd senac
+  120  mkdir --help
+  121  mkdir -p tat/ info/ tst/ est/ amd/
+  122  cd tat
+  123  ls
+  124  ls -lh
+  125  mkdir -p tat/ info  tst  est  amd
+  126  ls
+  127  ls -lh
+  128  cd ..
+  129  mkdir -pv TAT/INFO TA/TST TAT/AMD TAT/EST
+  130  ls
+  131  ls -lh
+  132  ls
+  133  ls -lh
+  134  ls -lha
+  135  mkdir cd /
+  136  cd /
+  137  ~
+  138  home
+  139  mkdir -v Alunos
+  140  cd Alunos
+  141  mkdir -pv Alunos/Elison Alunos/Lorenzo 
+  142  cd/
+  143  cd /
+  144  mkdir -v Alunos
+  145  mkdir -pv Alunos/Lorenzo Elison
+  146  mkdir -pv Alunos/Lorenzo /Luiza
+  147  exit
+  148  history
